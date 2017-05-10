@@ -25,6 +25,9 @@ a {
 a:hover {
   color: #DD5555;
 }
+#nav ul{
+  margin: auto;
+}
 
 .rounded-img {
   border-radius: 50%;
@@ -49,6 +52,7 @@ a:hover {
   color: white;
   font-weight: bold;
   box-shadow: 2px 2px 4px black;
+  margin: 5px;
 }
 
 .btn:hover {
