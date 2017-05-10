@@ -41,16 +41,17 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.picture{
-  margin: 5px;
-  width: 100%;
+  align-items: baseline;
 }
 
 .enhanced-picture{
   width: 350px;
   margin: 20px;
+}
+
+.picture{
+  margin: 5px;
+  width: 100%;
 }
 
 .movie-img {
