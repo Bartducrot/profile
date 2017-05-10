@@ -1,0 +1,95 @@
+/* Here goes your CSS */
+body {
+  background: lightgrey;
+  color: #2F3E46;
+  font-family: "Montserrat";
+  text-align: justify;
+}
+
+h1
+{
+  color: #DD5555;
+  font-size: 22px;
+}
+
+
+h2 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #52796F;
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+.rounded-img {
+  border-radius: 50%;
+}
+.medium-img {
+  width: 200px;
+  height: 200px;
+}
+
+.movie-img {
+  width: 210px;
+  height: 297px;
+  margin: 10px;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  background: #574AE2;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px black;
+}
+
+.btn:hover {
+  position: relative;
+  top: 5px;
+  font-weight: bolder;
+  color: white;
+  background: #222A68;
+  box-shadow: none;
+}
+
+.container {
+  width: 75%;   /* Set width */
+  min-width: 500px;
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background: white;
+  margin: 5% auto;
+  padding: 5%;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.card ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.card li {
+  display: inline-block;
+}
+
+.card p {
+  padding: 10px;
+  text-align: justify;
+}
+
+
+
