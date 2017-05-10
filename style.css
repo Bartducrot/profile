@@ -37,13 +37,20 @@ a:hover {
   height: 200px;
 }
 
-.enhanced_picture {
+#photography {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.enhanced_picture img{
+.picture{
   margin: 5px;
-  width: 200px;
+  width: 100%;
+}
+
+.enhanced-picture{
+  width: 350px;
+  margin: 20px;
 }
 
 .movie-img {
